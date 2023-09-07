@@ -2,19 +2,26 @@ body {
   background-image: linear-gradient(to left, rgb(230, 197, 230), skyblue);
 }
 
+#navbar {
+  height: 100px;
+}
+
 .navbar-toggler {
-  margin-bottom: 100px;
+  margin-bottom: 120px;
 }
 
 .bike-index {
   margin: auto;
+  margin-bottom: 75px;
+  margin-left: 5px;
   width: 100px;
+  height: 75px;
   display: block;
 }
 
 .container {
   margin: auto;
-  margin-top: 20px;
+  margin-top: 50px;
   margin-bottom: 20px;
   padding: auto;
   padding-top: 25px;
