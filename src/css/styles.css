@@ -31,3 +31,11 @@ body {
 .round {
   border-radius: 25px;
 }
+
+.distance {
+  width: 50px;
+}
+
+.btn {
+  margin-top: 10px;
+}

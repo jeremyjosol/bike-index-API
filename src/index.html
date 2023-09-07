@@ -27,16 +27,19 @@
 <body>
   <div class="container">
     <form>
-      <p>Bike get stolen? Try and find it with BikeIndex!</p>
+      <h2>Search Stolen Bikes</h2>
       <p class="search"></p>
-      <label for="bike"></label>
-      <input id="bike" class="bike" type="text" placeholder="Bike model">
+      <label for="bike">Bike model</label>
       <br />
-      <label for="location"></label>
-      <input id="location" class="location" type="text" placeholder="Location">
+      <input id="bike" class="bike" type="text" value="Bianchi">
       <br />
-      <label for="distance"></label>
-      <input id="distance" class="distance" type="number" palceholder="Distance in miles">
+      <label for="location">Location</label>
+      <br />
+      <input id="location" class="location" type="text" placeholder="Address, city, zipcode">
+      <br />
+      <label for="distance">Mile distance</label>
+      <br />
+      <input id="distance" class="distance" type="number" value="5">
       <br />
       <button type="submit" class="btn btn-outline-dark" id="bikeIndex">Search</button>
     </form>
