@@ -4,7 +4,7 @@
 _Jeremy Josol_
 
 ## About
-This an application that uses the [BikeIndex API](https://bikeindex.org/documentation/api_v3) and allows a user to search for stolen bikes with search queries for bike model, location, and mile distance.   
+This an application that uses the [BikeIndex API](https://bikeindex.org/documentation/api_v3) and allows a user to search for lost or stolen bikes with search queries for bike model, location, and mile distance. Based on the user input, the results will output on the webpage and display up to 25 lost or stolen bikes with information about specified parameters including the bike's year, color, date stolen, and an image of the bike.
 
 ## Technologies Used
 
@@ -38,7 +38,7 @@ This an application that uses the [BikeIndex API](https://bikeindex.org/document
       ```
         API_KEY=yourAPIkey
       ```  
-    > **_.env** will already be located in the **.gitignore** file to protect this sensitive information._
+    > _.**env** will already be located in the **.gitignore** file to protect this sensitive information._
 
 6. Before you can use or deploy the project, make sure to install its dependencies. Run the following command in your terminal:
 
