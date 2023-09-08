@@ -1,0 +1,51 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+<head>
+  <title>Bike Index API</title>
+</head>
+<nav id="navbar" class="navbar navbar-light" style="background-color: rgb(0, 0, 0, 0.20);">
+  <a class="navbar-brand" href="#"><img class="bike-index" src="https://bikeindex.org/assets/updated/home/logo-27d22f85edf0ddcc3b262d1306be68d3b5abaa9464c05d6bc16de00bab321800.svg" width="250"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Features</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Pricing</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul>
+</nav>
+</div>
+<body>
+  <div class="container">
+    <form>
+      <h2>Search Stolen Bikes</h2>
+      <p class="search"></p>
+      <label for="bike">Bike model</label>
+      <br />
+      <input id="bike" class="bike" type="text" value="Bianchi">
+      <br />
+      <label for="location">Location</label>
+      <br />
+      <input id="location" class="location" type="text" placeholder="Address, city, zipcode">
+      <br />
+      <label for="distance">Mile distance</label>
+      <br />
+      <input id="distance" class="distance" type="number" value="5">
+      <br />
+      <button type="submit" class="btn btn-info" id="bikeIndex">Search</button>
+    </form>
+    <p id="showResponse"></p>
+  </div>
+<script src="bundle.js"></script></body>
+</html>
