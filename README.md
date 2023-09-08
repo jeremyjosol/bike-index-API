@@ -4,7 +4,7 @@
 _Jeremy Josol_
 
 ## About
-This an application that uses the [BikeIndex API](https://bikeindex.org/documentation/api_v3) and allows a user to search for lost or stolen bikes with search queries for bike model, location, and mile distance. Based on the user input, the results will output on the webpage and display up to 25 lost or stolen bikes with information about specified parameters including the bike's year, color, date stolen, and an image of the bike.
+This application works with the [BikeIndex API](https://bikeindex.org/documentation/api_v3) and provides users with the capability to search for lost or stolen bikes using parameters for bike model, location, and distance proximity. Depending on the user's input, the webpage will present the results, displaying information on up to 25 lost or stolen bikes, including details such as the bike's year, color, date of theft, and an accompanying image.
 
 ## Technologies Used
 
