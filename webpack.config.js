@@ -23,7 +23,7 @@ module.exports = {
       verbose: true
     }),
     new HtmlWebpackPlugin({
-      title: 'weatherapi',
+      title: 'bikeindexapi',
       template: './src/index.html',
       inject: 'body'
     }),

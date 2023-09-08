@@ -20,10 +20,13 @@ function outputBike(response) {
   
   for (let i = 0; i < response.bikes.length; i++) {
     document.querySelector('#showResponse').innerHTML += 
-  `<div class="box"> <h5>${response.bikes[i].frame_colors[0]} ${response.bikes[i].title}</h5>
-   Location stolen: ${response.bikes[i].stolen_location} <br />
-   Date stolen: ${new Date(response.bikes[i].date_stolen * 1000).toLocaleString()}
-   <img class="round" src=${response.bikes[i].thumb} width="250px"> <br /> <br /></div>`;
+  `<div class="box"> 
+    <h5>${response.bikes[i].frame_colors[0]} ${response.bikes[i].title}</h5>
+    Location stolen: ${response.bikes[i].stolen_location} <br />
+    Date stolen: ${new Date(response.bikes[i].date_stolen * 1000).toLocaleString()} <br />
+    Serial #: ${response.bikes[i].serial} <br />
+    <img class="round" src=${response.bikes[i].thumb} width="250px"> <br /> 
+   </div>`;   
   }
 }
 
